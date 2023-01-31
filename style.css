@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	
+	background-image:url('background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+html {
+	scroll-behavior: smooth;
+}
+h1 {
+	text-align: center;
+	font-style: italic;
+	color: rgb(223, 228, 239);
+	margin: 100px 0;
+}
+label, .form-text {
+	color: rgb(223, 228, 239);
+}
+
+p {
+	font-size: 20px;
+	font-style: italic;
+}
+img {
+	width: 250px;
+	height: 250px;
+}
